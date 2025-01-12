@@ -1,0 +1,9 @@
+example run line:
+python3 analyze_sequence.py sequence.fasta --GCcontent
+
+sequence: The path to the sequence file (either .fasta or .genbank format).
+
+options:
+--duplicates: Optional flag to find the longest repeating subsequence.
+--GCcontent: Optional flag to calculate the GC content of the sequence.
+--motifs: Optional flag to search for AGGGG or ATGCT in the sequence.
